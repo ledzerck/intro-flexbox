@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <h2>Dirección (flex-direction)</h2>
+
+<!--  Abreviación Emmet 
+  article.contenedor>.caja{Caja $}*3
+-->
+
+<img src="imgs/flexbox.png" class="img-flex">
+
+<!-- Dirección -->
+    <h3>row</h3>
+    <p>Eje principal: De izquierda a derecha</p>
+    <div class="contenedor direction-row">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>row-reverse</h3>
+    <p>Eje principal: Derecha a izquierda</p>
+    <div class="contenedor direction-row-reverse">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>column</h3>
+    <p>Eje principal: Arriba a abajo</p>
+    <div class="contenedor direction-column">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>column-reverse</h3>
+    <p>Eje principal: Abajo hacia arriba</p>
+    <div class="contenedor direction-column-reverse">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+
+<!-- Wrap -->
+
+    <h2>Wrap (flex-wrap)</h2>
+
+    <h3>nowrap</h3>
+    <div class="contenedor azul wrap-nowrap">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>wrap</h3>
+    <div class="contenedor azul wrap-wrap">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>wrap-reverse</h3>
+    <div class="contenedor azul wrap-wrap-reverse">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+
+<!-- Justificar -->   
+
+    <h2>Justificar (justify-content)</h2>
+    <p>Trabajan con el eje principal (En este caso, de izquierda a derecha)</p>
+    <h3>flex-start</h3>
+    <div class="contenedor naranja justify-flex-start">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+    <h3>flex-center</h3>
+    <div class="contenedor naranja justify-flex-center">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>flex-end</h3>
+    <div class="contenedor naranja justify-flex-end">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>space-between</h3>
+    <div class="contenedor naranja justify-space-between">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>space-around</h3>
+    <div class="contenedor naranja justify-space-around">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+
+<!-- Alinear -->
+
+    <h2>Alinear (align-items)</h2>
+    <p>Trabajan con el eje cruzado, cross axis (Perpendicular al eje principal que en este caso va de izquierda a derecha)</p>
+    <h3>stretch</h3>
+    <div class="contenedor morado align-stretch">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>flex-start</h3>
+    <div class="contenedor morado align-flex-start">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>center</h3>
+    <div class="contenedor morado align-center">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+
+    <h3>flex-end</h3>
+    <div class="contenedor morado align-flex-end">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+    
+</body>
+</html>

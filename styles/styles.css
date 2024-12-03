@@ -1,0 +1,121 @@
+/* GENERALES */
+
+.contenedor {
+    background-color: khaki;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+}
+
+.caja {
+    border: 3px solid #000;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.img-flex {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+/* Dirección del eje principal*/
+
+.direction-row {
+    flex-direction: row;
+}
+
+.direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.direction-column-reverse {
+    flex-direction: column-reverse;
+}
+
+
+
+/* WRAP */
+
+.azul {
+    background-color: lightskyblue;
+}
+
+.azul .caja {
+    width: 300px;
+}
+
+.wrap-nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+
+
+/* Justificar  justify-content*/
+
+.naranja {
+    background-color: lightsalmon;
+}
+
+.justify-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-flex-center {
+    justify-content: center;
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+
+
+
+/* Alinear align-items */
+
+.morado {
+    background-color: mediumpurple;
+    height: 200px;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
